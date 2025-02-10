@@ -1,6 +1,6 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases;
 
-public class Testrectangle {public class TestMain {
+public class TestRectangle{
     public static void main(String[] args) {
 // Test constructors and toString()
 // You need to append a 'f' or 'F' to a float literal
@@ -19,4 +19,4 @@ public class Testrectangle {public class TestMain {
         System.out.printf("perimeter is: %.2f%n", r1.getPerimeter());
     }
 }
-}
+
