@@ -17,7 +17,7 @@ public class Account {
         this.balance = balance;
     }
 
-    public String getId() {
+    public String getID() {
         return id;
     }
     public int getBalance() {
@@ -27,8 +27,29 @@ public class Account {
         this.balance=balance+amount;
         return balance;
     }
-    public int debit(int amount){
+    public int debit(int amount) {
+        if (amount <= this.balance) {
+            this.balance -= amount;
+        } else {
+            System.out.println("Amount exceeded balance");
+        }
+        return this.balance;
+    }
+    public int transferTo(Account another, int amount){
+       if(amount<=balance){
+           this.balance=balance - amount;
+           another.balance=another.balance+amount;
+       }else{
+           System.out.println("Amount exceeded balance");
+       }
+        return balance;
+    }
+    public String toString(){
+        return "Account[id="+id+",name="+name+",balance="+balance+"]";
 
+    }
+    public String getName() {
+        return name;
     }
 }
 
