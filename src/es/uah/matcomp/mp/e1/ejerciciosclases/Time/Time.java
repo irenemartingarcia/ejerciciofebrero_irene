@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases;
+package es.uah.matcomp.mp.e1.ejerciciosclases.Time;
 import java.text.DecimalFormat;
 public class Time {
     private int hour;
