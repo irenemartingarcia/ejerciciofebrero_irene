@@ -11,12 +11,13 @@ public class Book {
         this.name=name;
         this.author=author;
         this.price=price;
+        qty=0;
     }
     public Book(String name, Author author, double price,int qty){
         this.name=name;
         this.author=author;
         this.price=price;
-        qty=0;
+        this.qty=qty;
     }
     public String getName() {
         return name;
