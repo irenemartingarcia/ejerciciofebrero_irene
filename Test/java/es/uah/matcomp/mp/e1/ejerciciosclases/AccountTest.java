@@ -8,7 +8,7 @@ class AccountTest {
 
     @org.junit.jupiter.api.Test
     void getID() {
-        Account a=new Account("A101","Irene",12);
+        Account a=new Account("A101","Irene");
         assertEquals("A101", a.getID(), "El id debería ser A101");
     }
 
