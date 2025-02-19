@@ -1,6 +1,7 @@
-package es.uah.matcomp.mp.e2.ejerciciosclases;
+package es.uah.matcomp.mp.e2.ejerciciosclases.Mytriangle;
 
 import es.uah.matcomp.mp.e2.ejerciciosclases.MyPoint.MyPoint;
+import es.uah.matcomp.mp.e2.ejerciciosclases.MyTriangle.MyTriangle;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -24,9 +25,9 @@ class MyTriangleTest {
         MyPoint m1= new MyPoint(2, 3);
         MyPoint m2= new MyPoint(2, 4);
         MyPoint m3= new MyPoint(1, 0);
-        //MyTriangle t1= new MyTriangle(0,0,4,0,2,4);
-        //assertEquals("Equilatero",t1.getType(),"el mensaje debería ser equilatero");
-        MyTriangle t2= new MyTriangle(0,0,6,0,3,4);
+        MyTriangle t1= new MyTriangle(0,0,0,0,0,0);
+        assertEquals("Equilátero",t1.getType(),"el mensaje debería ser equilatero");
+        MyTriangle t2= new MyTriangle(0,0,6,0,3,5);
         assertEquals("Isósceles",t2.getType(),"el mensaje debería ser isosceles");
         MyTriangle t3= new MyTriangle(m1,m2,m3);
         assertEquals("Escaleno",t3.getType(),"el mensaje debería ser escaleno");

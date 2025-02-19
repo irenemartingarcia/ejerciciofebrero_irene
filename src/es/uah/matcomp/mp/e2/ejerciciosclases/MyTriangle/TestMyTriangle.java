@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e2.ejerciciosclases;
+package es.uah.matcomp.mp.e2.ejerciciosclases.MyTriangle;
 
 import es.uah.matcomp.mp.e2.ejerciciosclases.MyPoint.MyPoint;
 
