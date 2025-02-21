@@ -15,10 +15,7 @@ public class Point3D extends Point2D {
     }
     public void setZ(float z) {
         this.z = z;
-    }
-    @Override
-    public void setXY(float x, float y) {
-        super.setXY(x, y);
+
     }
     public void setXYZ(float x, float y, float z){
         super.setXY(x,y);
