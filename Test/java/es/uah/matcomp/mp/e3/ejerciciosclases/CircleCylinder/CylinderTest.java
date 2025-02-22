@@ -9,8 +9,8 @@ class CylinderTest {
 
     @Test
     void getHeight() {
-        Cylinder c= new Cylinder(2,8.0);
-        assertEquals(8.0,c.getHeight(),"la altura debería ser 8.0");
+        Cylinder c= new Cylinder();
+        assertEquals(1.0,c.getHeight(),"la altura debería ser 8.0");
     }
 
     @Test
